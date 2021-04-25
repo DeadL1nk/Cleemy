@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuccaSA.Cleemy.RecruitmentTest", "LuccaSA.Cleemy.RecruitmentTest\LuccaSA.Cleemy.RecruitmentTest.csproj", "{516D5DA5-1B0C-4AD4-A09B-FBE32D20B78B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuccaSA.Cleemy.Model", "LuccaSA.Cleemy.Model\LuccaSA.Cleemy.Model.csproj", "{97710DE6-838A-426B-B7B6-D9C5427EA9B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 -Temp", "00 -Temp", "{39A3D95B-215B-476E-8D5D-5DA88790CD70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Model", "10 - Model", "{2858C675-6848-4DCF-A82D-E0A65B158118}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Service", "20 - Service", "{86CC36C8-FB9B-425F-A773-E8CD68698139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 - GUI", "30 - GUI", "{47BD9BF0-ABC1-4E0C-86FE-7870A876963F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 - Run", "40 - Run", "{46D9EAFF-0B94-4570-80C4-34425D8EA8B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 - Test", "50 - Test", "{3D5A7587-F763-4D2A-B01D-EC486B90885F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuccaSA.Cleemy.Low", "LuccaSA.Cleemy.Low\LuccaSA.Cleemy.Low.csproj", "{6DC594DB-543E-4698-B9C9-BB36FCFA295D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentTest.Tests", "RecruitmentTest.Tests\RecruitmentTest.Tests.csproj", "{15B1A943-918B-41E9-8DEF-FDA4112819CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{516D5DA5-1B0C-4AD4-A09B-FBE32D20B78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516D5DA5-1B0C-4AD4-A09B-FBE32D20B78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516D5DA5-1B0C-4AD4-A09B-FBE32D20B78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516D5DA5-1B0C-4AD4-A09B-FBE32D20B78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97710DE6-838A-426B-B7B6-D9C5427EA9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97710DE6-838A-426B-B7B6-D9C5427EA9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97710DE6-838A-426B-B7B6-D9C5427EA9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97710DE6-838A-426B-B7B6-D9C5427EA9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC594DB-543E-4698-B9C9-BB36FCFA295D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC594DB-543E-4698-B9C9-BB36FCFA295D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC594DB-543E-4698-B9C9-BB36FCFA295D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC594DB-543E-4698-B9C9-BB36FCFA295D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B1A943-918B-41E9-8DEF-FDA4112819CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B1A943-918B-41E9-8DEF-FDA4112819CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B1A943-918B-41E9-8DEF-FDA4112819CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B1A943-918B-41E9-8DEF-FDA4112819CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{516D5DA5-1B0C-4AD4-A09B-FBE32D20B78B} = {46D9EAFF-0B94-4570-80C4-34425D8EA8B9}
+		{97710DE6-838A-426B-B7B6-D9C5427EA9B8} = {2858C675-6848-4DCF-A82D-E0A65B158118}
+		{6DC594DB-543E-4698-B9C9-BB36FCFA295D} = {86CC36C8-FB9B-425F-A773-E8CD68698139}
+		{15B1A943-918B-41E9-8DEF-FDA4112819CE} = {3D5A7587-F763-4D2A-B01D-EC486B90885F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {345363E2-4C83-4343-9F69-FB25036400BF}
+	EndGlobalSection
+EndGlobal
